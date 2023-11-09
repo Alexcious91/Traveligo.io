@@ -1,0 +1,52 @@
+.px-15 {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+.container .header-section {
+    background: url('/assets/img/Sunset-Highway-Original.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container.header-section .container h2 {
+    font-family: Quicksand-Bold;
+}
+
+.form-input-control {
+    background: #fff;
+    outline: 0;
+    background: none;
+}
+
+.form-area input {
+    padding: 15px;
+}
+
+.form-area input, .form-area textarea {
+    border-radius: 0;
+    font-size: 12px;
+}
+
+.btn-message_ {
+    font-size: 15px;
+}
+
+.footer-area {
+    padding-top: 100px;
+}
+
+.footer-widget h6 {
+    color: #fff;
+    font-family: Quicksand-Bold;
+}
+
+.footer-widget p {
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url(/public/assets/Quicksand/static/Quicksand-Bold.ttf);
+}

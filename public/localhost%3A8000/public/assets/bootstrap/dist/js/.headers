@@ -1,0 +1,20 @@
+[
+  {
+    "applyTo": "bootstrap.bundle.min.js",
+    "headers": [
+      {
+        "name": "content-type",
+        "value": "application/javascript; charset=utf-8"
+      }
+    ]
+  },
+  {
+    "applyTo": "bootstrap.bundle.js",
+    "headers": [
+      {
+        "name": "content-type",
+        "value": "text/javascript; charset=utf-8"
+      }
+    ]
+  }
+]
