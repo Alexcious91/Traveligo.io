@@ -3,3 +3,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+form label {
+    font-size: 13px;
+}
+
+form .form-text {
+    font-size: 13px;
+}

@@ -50,5 +50,5 @@ app.get('/dashboard', (req, res) => {
 });
 
 app.listen(8000, () => {
-    console.log('Server started listening at http://localhost:8000');
+    console.log('Server started listening at http://localhost:8000/home');
 });
