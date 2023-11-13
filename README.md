@@ -4,10 +4,10 @@
 - An example of traveling agency website (Express.js, EJS, Node.js)
 
 ## Table of contents
-- How to run
+- [How to run](#how-to-run)
 - Features
 
-## [How to run](How to run)
+## [How to run](#How to run)
 - Run "npm run devStart" in the terminal
 
 ## Features
