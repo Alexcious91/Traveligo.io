@@ -1,13 +1,17 @@
 # Welcome to Traveligo.io - The Ultimate Travel Agency
 
-- Traveligo is an eco-friendly organization that helps to improve your traveling experience
 - An example of traveling agency website (Express.js, EJS, Node.js)
 
 ## Table of contents
-- [How to run](#how-to-run)
-- Features
+- [Introduction](#introduction)
+- [Get Started](#get-started)
+- [Features](#features)
 
-## How to run
+## Introduction
+- Traveligo is an eco-friendly organization that helps to improve your traveling experience
+
+## Get Started
+- (You need latest Express.js, EJS version, Bootstrap 5 to run.)
 - Run "npm run devStart" in the terminal
 
 ## Features
