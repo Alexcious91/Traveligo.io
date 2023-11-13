@@ -7,7 +7,7 @@
 - [How to run](#how-to-run)
 - Features
 
-## [How to run](#How to run)
+## How to run
 - Run "npm run devStart" in the terminal
 
 ## Features
