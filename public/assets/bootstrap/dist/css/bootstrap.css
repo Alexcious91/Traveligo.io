@@ -1006,6 +1006,17 @@ progress {
   --bs-gutter-y: 3rem;
 }
 
+@media (min-width: 430px) {
+  .col-ssm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .flex-ssm-column {
+    flex-direction: column !important;
+  }
+}
+
 @media (min-width: 576px) {
   .col-sm {
     flex: 1 0 0%;
@@ -3195,6 +3206,10 @@ textarea.form-control-lg {
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #0d6efd;
   --bs-gradient: none;
+}
+
+.btn-outline-orange {
+  border: 1px solid #FF8C00;
 }
 
 .btn-outline-secondary {
@@ -8414,6 +8429,14 @@ textarea.form-control-lg {
 
 .fs-6 {
   font-size: 1rem !important;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-13 {
+  font-size: 13px;
 }
 
 .fst-italic {
