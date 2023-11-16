@@ -213,7 +213,7 @@ hr {
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   font-weight: 500;
   line-height: 1.2;
   color: var(--bs-heading-color);
@@ -3072,6 +3072,13 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #0d6efd;
 }
 
+.btn-orange {
+  --bs-btn-bg: #FF8C00;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #FFD700;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+}
+
 .btn-secondary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #6c757d;
@@ -3210,6 +3217,8 @@ textarea.form-control-lg {
 
 .btn-outline-orange {
   border: 1px solid #FF8C00;
+  --bs-btn-hover-bg: #FFA500;
+  --bs-btn-hover-color: #000;
 }
 
 .btn-outline-secondary {
@@ -8437,6 +8446,14 @@ textarea.form-control-lg {
 
 .fs-13 {
   font-size: 13px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 18px;
 }
 
 .fst-italic {

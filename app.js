@@ -16,21 +16,15 @@ app.get('/register', (req, res) => {
 });
 
 app.post('/register', (req, res) => {
-    try {
-        users.push({
-            userId: Math.floor(Math.random() * 6000),
-            username: req.body.username,
-            email: req.body.email,
-            password: req.body.password
-        });
-        setTimeout(() => {
-            res.redirect('login');
-            console.log(users);
-        }, 3000);
-    } catch (error) {
-        res.redirect('/register');
-        console.log(error);
-    }
+    // const { email, password } = req.body;
+    users.push({
+        userId: Math.floor(Math.random() + 1000 * 6000),
+        email: req.body.email,
+        password: req.body.password
+    });
+    setTimeout(() => {
+        res.redirect('login')
+    }, 3000);
 });
 
 app.get('/login', (req, res) => {
@@ -38,7 +32,15 @@ app.get('/login', (req, res) => {
 });
 
 app.post('/login', (req, res) => {
-    res.redirect('dashboard');
+    const isValidUser = users.some(user => user.username === username && user.password === password);
+
+    if (!isValidUser) {
+        res.render('login', { error: 'Incorrect credentials' })
+    } else {
+        setTimeout(() => {
+            res.redirect('/dashboard');
+        }, 3000);
+    }
 });
 
 app.get('/password-reset', (req, res) => {

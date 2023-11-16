@@ -3,14 +3,52 @@
     padding-left: 15px !important;
 }
 
-.container .header-section {
-    background: url('/assets/img/Sunset-Highway-Original.jpg');
+.section-gap {
+    padding: 120px 0;
+}
+
+.dark-mode {
+    background: #CCCCCC;
+}
+
+.text-orange {
+    color: #FFC800; 
+}
+
+.btn-outline-orange {
+    border: 1px solid #FF8C00;
+}
+
+.header-section {
+    background: url('/assets/img/People\ stading\ -\ Medium.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.container.header-section .container h2 {
-    font-family: Quicksand-Bold;
+.header-section h2 {
+    font-family: Quicksand-Bold !important;
+}
+
+.features-container h5 {
+    font-family: Quicksand-Bold !important;
+}
+
+.about-section h1 {
+    font-family: Quicksand-Bold !important;
+}
+
+.overlap-container {
+    /* position: relative; */
+    overflow: hidden;
+}
+
+.overlap-image {
+    position: absolute;
+    /* height: ; */
+    width: 20%;
+    object-fit: cover;
+    z-index: 1;
+    margin-right: -32px;
 }
 
 .form-input-control {
@@ -59,8 +97,13 @@
     font-size: 13px;
 }
 
-.footer-widget .social-icons {
-    
+.newsletterBtn {
+    background: #0d6efd;
+    outline: 0;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border: 1px solid #0e3877;
 }
 
 @font-face {
