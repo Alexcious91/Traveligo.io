@@ -12,8 +12,9 @@
     
     <header class="p-3 bg-light text-white">
         <div class="container-fluid align-items-center">
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between align-items-center">
                 <div class="d-flex">
+                    
                     <ul class="navbar-nav ml-auto pt-1">
                         <li class="nav-item">
                             <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#myModal" class="nav-link text-black px-2">&#9776;</a>
@@ -64,38 +65,40 @@
         </div>
     </header>
 
-    <div class="mt-5 p-3 d-flex justify-content-center header-section">
-        <div class="container-fluid text-center">
-            <h4>Discover the unique world</h4>
-            <h2>New Adventure</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, blanditiis.</p>
-            
-            <div class="mt-2">
-                <a href="javascript:void(0)">
-                    <button class="btn btn-outline-primary">Book Now</button>
-                </a>
+    <div class="header-section">
+        <div class="p-5 d-flex justify-content-center">
+            <div class="container-fluid text-center text-white mt-5">
+                <h4>Discover the unique world</h4>
+                <h2>New Adventure</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, blanditiis.</p>
+                
+                <div class="mt-2">
+                    <a href="javascript:void(0)">
+                        <button class="btn btn-outline-primary">Book Now</button>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 
-    <section class="bg-light mt-5">
+    <section class="bg-light">
         <div class="container py-4 px-2">
             <div class="title text-center">
                 <h4 class="py-2 ">Inquire Now</h4>
-                <p>We love friendly eco system.</p>
+                <!-- <p>We love friendly eco system.</p> -->
 
             </div>
 
             <form action="javascript:void(0)" class="form-area">
                 <div class="row">
                     <div class="d-flex mb-3">
-                        <div class="col-lg-6 px-15 form-group">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-ssm-6 px-15 form-group">
                             <input type="text" class="form-control mb-2" placeholder="Name">
                             <input type="email" class="form-control mb-2" placeholder="Email">
                             <input type="number" class="form-control" placeholder="Contact no.">
                         </div>
                         
-                        <div class="col-lg-6 px-15 form-group">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-ssm-6 px-15 form-group">
                             <textarea class="form-control h-100" placeholder="Message"></textarea>
                         
                             <button type="submit" class="btn-message_ my-2 btn btn-outline-danger">Send Message</button>
@@ -109,35 +112,34 @@
     <footer class="footer-area bg-dark mt-5 section-gap">
         <div class="container">
             <div class="row">
-                <div class="d-flex">
+                <div class="d-flex flex-lg-row flex-md-row flex-sm-row flex-ssm-column">
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 my-2">
                         <div class="footer-widget">
-                        <h6>About us</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam eligendi eos tenetur quisquam accusantium iusto.</p>
-                        
-                        <hr>
-                        
-                        <p>Copyright
-                            <script>document.write(new Date().getFullYear())</script>
-                        </p>
-                        
-                    </div>
+                            <h6>About us</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam eligendi eos tenetur quisquam accusantium iusto. Lorem ipsum dolor sit amet consectetur.</p>
+                            
+                            <hr>
+                            
+                            <p>Copyright
+                                <script>document.write(new Date().getFullYear())</script>
+                            </p>
+                        </div>
                     </div>
                     
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 my-2">
                         <div class="footer-widget">
                             <h6>Newsletter</h6>
                             <p>Stay up to date with out news</p>
                             
                         <div class="input-group">
-                            <input type="text" class="mt-1" placeholder="Enter Email">
-                            <button type="submit" class="btn btn-primary">Send</button>
+                            <input type="text" placeholder="Enter Email">
+                            <button type="submit" class="newsletterBtn">Send</button>
                         </div>
                     </div>
                 </div>
                 
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 my-2">
                         <div class="footer-widget">
                             <h6>Connect with us</h6>
                             <p>Let's be social</p>
