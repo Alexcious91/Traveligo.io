@@ -44,11 +44,21 @@ app.post('/login', (req, res) => {
 });
 
 app.get('/password-reset', (req, res) => {
-    res.render('password-reset');
+    setTimeout(() => {
+        res.render('password-reset');
+    }, 2500);
 });
 
 app.get('/dashboard', (req, res) => {
-    res.render('dashboard.ejs');
+    setTimeout(() => {
+        res.render('dashboard.ejs');
+    }, 2000);
+});
+
+app.get('/book-now', (req, res) => {
+    setTimeout(() => {
+        res.render('book-now');
+    }, 2000);
 });
 
 app.listen(8000, () => {
