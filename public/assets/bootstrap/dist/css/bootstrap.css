@@ -8448,19 +8448,19 @@ textarea.form-control-lg {
 }
 
 .fs-16 {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 .fs-13 {
-  font-size: 13px;
+font-size: 13px !important;
 }
 
 .fs-18 {
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 .fs-20 {
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 .fst-italic {
@@ -12126,4 +12126,37 @@ textarea.form-control-lg {
   src: url(/assets/Quicksand/static/Quicksand-Regular.ttf);
 }
 
+.header-section {
+  background: url('/assets/img/People\ stading\ -\ Medium.jpg');
+  /* background: url(/assets/img/Sunset-Highway-Original.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.header-section h2 {
+  font-family: Quicksand-Bold !important;
+  font-size: 4rem;
+}
+
+.header-section .btn-orange {
+  font-family: Quicksand-Bold;
+}
+
+.features-container h5 {
+  font-family: Quicksand-Bold !important;
+}
+
+.about-section h1 {
+  font-family: Quicksand-Bold !important;
+}
+
+.text-orange {
+  color: #FFC800; 
+}
+
+@font-face {
+  font-family: Quicksand-Bold;
+  src: url(/assets/Quicksand/static/Quicksand-Bold.ttf);
+}
 /*# sourceMappingURL=bootstrap.css.map */

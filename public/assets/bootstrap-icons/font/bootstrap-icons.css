@@ -1283,6 +1283,7 @@ url("./fonts/bootstrap-icons.woff?1fa40e8900654d2863d011707b9fb6f2") format("wof
 .bi-trophy::before { content: "\f5e7"; }
 .bi-tropical-storm::before { content: "\f5e8"; }
 .bi-truck-flatbed::before { content: "\f5e9"; }
+.bi-bed::before { content: "\f236"; }
 .bi-truck::before { content: "\f5ea"; }
 .bi-tsunami::before { content: "\f5eb"; }
 .bi-tv-fill::before { content: "\f5ec"; }
@@ -1360,6 +1361,7 @@ url("./fonts/bootstrap-icons.woff?1fa40e8900654d2863d011707b9fb6f2") format("wof
 .bi-coin::before { content: "\f634"; }
 .bi-currency-bitcoin::before { content: "\f635"; }
 .bi-currency-dollar::before { content: "\f636"; }
+.bi-currency-rand::before { content: '\0052'; }
 .bi-currency-euro::before { content: "\f637"; }
 .bi-currency-exchange::before { content: "\f638"; }
 .bi-currency-pound::before { content: "\f639"; }
