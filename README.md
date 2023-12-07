@@ -1,6 +1,6 @@
 # Welcome to Traveligo.io - The Ultimate Travel Agency
 
-- An example of traveling agency website (Express.js, EJS, Node.js)
+> An example of traveling agency website (Express.js, EJS, Node.js)
 
 ## Table of contents
 - [Introduction](#introduction)
