@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84.943" height="74.847" viewBox="0 0 84.943 74.847">
+    <defs>
+        <style>
+            .cls-1{fill:#0d9ee0}.cls-2{fill:#1db2f5}
+        </style>
+    </defs>
+    <g id="Group_16358" transform="translate(-182.471 -124.541)">
+        <path id="Path_21924" d="M182.471 163.841h84.943l-42.472 24.717z" class="cls-1" transform="translate(0 -14.583)"/>
+        <path id="Path_21925" d="M267.414 149.259h-84.943l42.472-24.717z" class="cls-2"/>
+        <path id="Rectangle_6713" fill="#daf2fd" d="M0 0H53.144V42.005H0z" transform="translate(197.51 137.241)"/>
+        <text id="_" fill="#045965" font-family="Poppins-Bold, Poppins" font-size="37px" font-weight="700" letter-spacing="0.025em" transform="translate(222.991 173.428)">
+            <tspan x="-16.095" y="0">%</tspan>
+        </text>
+        <path id="Path_21926" d="M267.414 213.971h-84.943v-50.13l42.472 24.717 42.472-24.717z" class="cls-1" transform="translate(0 -14.583)"/>
+        <path id="Path_21927" d="M292.472 163.841L250 188.558l42.472 25.413z" class="cls-2" transform="translate(-25.058 -14.583)"/>
+    </g>
+</svg>
