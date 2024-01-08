@@ -2,63 +2,52 @@ const express = require('express');
 const app = express();
 
 app.set('view engine', 'ejs');
-// app.use(express.urlencoded({ extended: false }));
 app.use(express.static('public'));
+app.use(express.urlencoded({ extended: true }))
 
 const users = [];
 
-app.get('/home', (req, res) => {
-    res.render('home.ejs');
-})
+const mainRoutes = require('./routes/routes');
 
-app.get('/register', (req, res) => {
-    res.render('register.ejs');
-});
+app.use('/', mainRoutes);
 
 app.post('/register', (req, res) => {
-    // const { email, password } = req.body;
+    const { email, password } = req.body;
     users.push({
         userId: Math.floor(Math.random() + 1000 * 6000),
-        email: req.body.email,
-        password: req.body.password
+        email: email,
+        password: password
     });
+
+    console.log(users);
     setTimeout(() => {
         res.redirect('login')
     }, 3000);
 });
 
-app.get('/login', (req, res) => {
-    res.render('login.ejs');
-});
-
 app.post('/login', (req, res) => {
-    // const isValidUser = users.some(user => user.username === username && user.password === password);
+    const { username, password } = req.body;
+    const emailRegex = '@';
 
-    // if (!isValidUser) {
-    //     res.render('login', { error: 'Incorrect credentials' })
-    // } else {
-    //     setTimeout(() => {
-    //     }, 3000);
-    // }
-    res.redirect('/dashboard');
+    const userExist = users.some(user => user.name === username && user.password === password);
+
+    if (userExist) {
+        setTimeout(() => {
+            res.render('dashboard')
+        }, 1000);
+    } else {
+        res.render('login')
+    }
+
 });
 
-app.get('/password-reset', (req, res) => {
-    setTimeout(() => {
-        res.render('password-reset');
-    }, 2500);
-});
+app.use((req, res, next) => {
+    res.status(404).render('error_views/status404')
+})
 
-app.get('/dashboard', (req, res) => {
-    setTimeout(() => {
-        res.render('dashboard.ejs');
-    }, 2000);
-});
-
-app.get('/book-now', (req, res) => {
-    setTimeout(() => {
-        res.render('book-now');
-    }, 2000);
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).render('error_views/status500');
 });
 
 app.listen(8000, () => {
